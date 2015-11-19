@@ -1,5 +1,3 @@
-#!/bin/bash
+#Commit-a-day
 
-echo %DATE% > date.txt
-git commit -m %DATE% date.txt
-git push -u origin master
+This bat script makes a commit a day. Fork and get awesome github streaks.
