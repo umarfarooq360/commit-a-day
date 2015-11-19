@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo %DATE% > date.txt
+date > date.txt
 git add .
-git commit -m %DATE% 
+git commit -m  "`date`"
 git push -u origin master
